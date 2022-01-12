@@ -20,9 +20,12 @@ body {
     height: 100vh;
     background-color: #2C3E4E;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.nav-container p {
+.nav-links p {
     margin-top: 15px;
     font-size: 17px;
     text-align: left;
@@ -38,4 +41,12 @@ body {
 
 .header-bar img {
     height: 100%;
+}
+
+.user-logo {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
