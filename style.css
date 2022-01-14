@@ -249,7 +249,7 @@ body{
 .header-bar {
     background-color: white;
     height: 60px;
-    width: 85%;
+    width: 100%;
 }
 
 .header-bar img {
@@ -261,4 +261,8 @@ body{
     display: flex;
     gap: 5px;
     align-items: center;
+}
+
+.puuleht {
+    width: 100%;
 }
