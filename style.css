@@ -311,3 +311,8 @@ body{
 .grid-container div p{
     font-size: 10px;
 }
+.nav-links a{
+    text-align: left;
+    padding: 15px 30px;
+    color: white;
+}
