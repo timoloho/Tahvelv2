@@ -235,8 +235,6 @@ body{
 }
 
 
-
-
 .nav-container {
     text-align: center;
     color: white;
@@ -310,4 +308,53 @@ body{
 }
 .grid-container div p{
     font-size: 10px;
+}
+
+.body-containers {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.nav-links a{
+    display: flex;
+    padding: 15px 30px;
+    text-align: left;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 15%;
+    text-decoration: none;
+}
+
+.tuniipaans{
+    background-color: #ace7ff;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-containers{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.grid-containers div{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+}
+.grid-containers div p{
+    font-size: 24px;
 }
